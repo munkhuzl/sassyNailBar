@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "flaticon": "^0.1.0",
+    "mongoose": "^8.9.3",
+    "node": "^23.5.0",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {  
+    "@types/express": "^5.0.0",
+    "@types/uuid": "^10.0.0"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "build": "backend/main.js"
+  }
+}
